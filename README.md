@@ -4,6 +4,9 @@
 身の回りの「ちょっと不便」を、自分で作って解決するのが好きです。
 音声アシスタントやウェブアプリを、Claude Code と一緒に作っています。
 
+**AI と一緒に作っています。** コードの多くは AI が書いたものです。私は、要件の整理、動作の確認、改善の指示、
+安全面（取り返しのつかない操作の扱いなど）の判断を担当しています。
+
 ## 作っているもの
 
 ### [J.A.R.V.I.S.](https://github.com/hasshy256/jarvis-assistant)
@@ -14,10 +17,12 @@
 - Obsidian に長期記憶を保存。iPhone のリモコン画面（PWA）からも使える
 
 ### [park-wait-forecast](https://github.com/hasshy256/park-wait-forecast)
-テーマパークの待ち時間予測アプリ（個人開発・非公式）が読む、予測データの置き場所。毎朝自動で更新。
+テーマパークの待ち時間予測アプリ（個人開発・非公式）。AI（Claude Code）と一緒に作成。このリポジトリは、アプリが読む予測データの置き場所で、毎朝自動で更新されます。
+- Python でデータの収集と予測を行い、Flutter 製のアプリで見られるようにしています
+- 公式サイトへの巡回は 1 日 1 回までにする、公式の写真や紹介文は使わない、といったルールを決めて開発
 
-### CINELIST
-友達と共有する映画・ドラマのウォッチリスト（Cloudflare Workers + D1）。見た記録、星の評価、シリーズのグループ化、ドラマの話数ごとの記録に対応。
+### CINELIST（コードは非公開）
+AI（Claude Code）と一緒に作成。友達と共有する映画・ドラマのウォッチリスト（Cloudflare Workers + D1）。見た記録、星の評価、シリーズのグループ化、ドラマの話数ごとの記録に対応。
 
 ## 使っている技術
 `Python` `JavaScript` `Flutter / Dart` `Cloudflare Workers` `SQLite / D1` `Claude Code` `PowerShell`
